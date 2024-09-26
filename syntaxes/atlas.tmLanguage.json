@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Atlas",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#hexcodes"
+		},
+		{
+			"include": "#pointers"
+		},
+		{
+			"include": "#endings"
+		},
+		{
+			"include": "#controls"
+		},
+		{
+			"include": "#commands"
+		}
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.line.atlas",
+			"begin": "//",
+			"end": "\\n"
+		},
+		"hexcodes": {
+			"name": "keyword.other.unit.suffix.hexcode.atlas",
+			"match": "<\\$[0-9A-F]{2}>"
+		},
+		"pointers": {
+			"name": "keyword.other.unit.suffix.pointer.atlas",
+			"match": "\\$[0-9A-F]+"
+		},
+		"endings": {
+			"name": "entity.name.function.ending.atlas",
+			"match": "(<END>|<end>|\\(END\\))|\\(end\\)"
+		},
+		"controls": {
+			"name": "keyword.control.atlas",
+			"begin": "<",
+			"end": ">",
+			"beginCaptures": {
+				"0": { "name": "punctuation.paren.open" }
+			},
+			"endCaptures": {
+				"0": { "name": "punctuation.paren.close" }
+			}
+		},
+		"commands": {
+			"name": "entity.name.function.command.atlas",
+			"match": "#.+\\("
+		}
+	},
+	"scopeName": "text.atlas"
+}
