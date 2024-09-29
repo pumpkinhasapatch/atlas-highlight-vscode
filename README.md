@@ -1,6 +1,6 @@
 # Atlas script syntax grammar & highlighting
 
-Grammar definitions and code syntax highlighting for the script insertion utility [Atlas](https://github.com/stevemonaco/Atlas/) by Steve Monaco "Klarth", and it's younger brother [abcde]().
+Grammar definitions and code syntax highlighting for the script insertion utility [Atlas](https://github.com/stevemonaco/Atlas/) by Steve Monaco "Klarth", and it's younger brother [abcde](https://www.romhacking.net/forum/index.php?topic=25968.0).
 
 Atlas is used in many video game reverse-engineering and fan translation projects. You can find [files on GitHub using Atlas](https://github.com/search?q=path%3A*.txt+%2F%5E%23ACTIVETBL%5C%28.%2B%5C%29%2F+NOT+is%3Afork&type=code&expanded_query=path%3A*.txt+%2F%5E%23ACTIVETBL%5C%28.%2B%5C%29%2F+NOT+is%3Afork) scripting. The Atlas script format and commands are described in the official [Atlas Reference guide](https://github.com/stevemonaco/Atlas/blob/master/docs/Atlas.pdf) documentation.
 
